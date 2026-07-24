@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Form Demo</title>
+</head>
+<body>
+    <h1 id="demoH1">Welcome to Old Enough</h1>
+
+    <p>Are you old Enough to drive?</p>
+
+    <form id="oldEnough">
+        <label for="Name">Name: </label>
+        <input class="inputs" type="text" name="userName" id="userName" required> <br> <br>
+
+        <label for="age">Age: </label>
+        <input class="inputs" type="number" name="age" id="age" required min="0" max="100"> <br><br>
+
+        <button class="submitBtn" type="submit">Submit</button>
+        <button class="clearBtn" type="reset" id="clear">Clear</button>
+    </form>
+
+    <div id="results"></div>
+
+    <script src="./form.js"></script>
+</body>
+</html>

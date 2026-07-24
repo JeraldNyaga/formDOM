@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 170, 78);
+    color: white;
+    text-align: center;
+}
+
+#oldEnough{
+    border: 2px solid black;
+    width: 40%; /* This is 40% of the entire screen*/
+    display: block;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.submitBtn:hover{
+    background-color: rgb(51, 255, 0);
+}
+
+.clearBtn:hover{
+    background-color: rgb(214, 11, 11);
+    color: white;
+}
+
+button{
+    background-color: white;
+    color: black;
+    padding: 5px 11px;
+    border-radius: 4px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.inputs{
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 150px;
+}
+#results{
+    display: none;
+    background-color: rgb(182, 130, 61);
+    padding: 5px;
+    width: 40%;
+    margin: 5px auto;
+}
+.resultParagraph{
+    color: white;
+}
